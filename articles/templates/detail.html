@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="card">
+    <div class="card-header">
+        <strong>{{article.title}}</strong>
+    </div>
+    <div class="card-body">
+        {{article.content}}
+    </div>
+    <div class="card-footer">
+        {{article.created_at}}
+    </div>
+</div>
+{% endblock %}

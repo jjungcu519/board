@@ -8,3 +8,6 @@
 
 ## 템플릿 경로 지정
 - settings.py 내 TEMPLATES에 DIRS를 BASE_DIR/'templates' 로 설정
+
+## {% url '앱이름:이름' %}
+- path 함수를 찾기 위해 urls.py에 app_name을 지정
