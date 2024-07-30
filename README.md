@@ -11,3 +11,7 @@
 
 ## {% url '앱이름:이름' %}
 - path 함수를 찾기 위해 urls.py에 app_name을 지정
+
+## post와 csrf 토큰
+- post -> 데이터를 같이 담아서 보내기 위한 메서드
+- csrf 토큰 -> 직인, 양식
