@@ -15,3 +15,6 @@
 ## post와 csrf 토큰
 - post -> 데이터를 같이 담아서 보내기 위한 메서드
 - csrf 토큰 -> 직인, 양식
+
+- RESTFUL 코드 작성
+![](https://gmlwjd9405.github.io/images/network/rest.png)
